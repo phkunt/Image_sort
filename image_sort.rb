@@ -15,7 +15,7 @@ end
 
 def select_mounted_volumes
   puts "Select a backup volume. Mounted volumes:".yellow
-  volumes = Dir.entries('/Volumes').select {|entry| File.directory? File.join('/Volumes',entry) and !(entry =='.' || entry == '..' || entry == 'APPLE SSD' || envry == 'Windows' || entry == 'Recovery') }
+  volumes = Dir.entries('/Volumes').select {|entry| File.directory? File.join('/Volumes',entry) and !(entry =='.' || entry == '..' || entry == 'APPLE SSD' || entry == 'Windows' || entry == 'Recovery') }
   puts volumes
   puts ""
   backup_volume = gets.chomp 
