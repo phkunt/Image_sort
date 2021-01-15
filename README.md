@@ -1,5 +1,5 @@
 # Image_sort
-Used to sort and backup images based on metadata. Furthermore it is able to backup the 
+Small App to sort and backup images based on metadata. Furthermore it is able to backup the 
 pictures in the same structure on an external Volume.
 
 ## Usage
